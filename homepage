@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GoodIntent Non-Profit Directory</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>GoodIntent Non-Profit Directory</h1>
+      <form>
+        <input type="text" placeholder="Search...">
+        <button type="submit">Go</button>
+      </form>
+    </div>
+    <div class="main">
+      <h2>Featured Non-Profits</h2>
+      <ul>
+        <li><a href="#">Non-Profit 1</a></li>
+        <li><a href="#">Non-Profit 2</a></li>
+        <li><a href="#">Non-Profit 3</a></li>
+      </ul>
+      <h2>All Non-Profits</h2>
+      <ul>
+        <li><a href="#">Non-Profit 4</a></li>
+        <li><a href="#">Non-Profit 5</a></li>
+        <li><a href="#">Non-Profit 6</a></li>
+      </ul>
+    </div>
+    <div class="footer">
+      <p>Copyright © 2023 GoodIntent Non-Profit Directory</p>
+    </div>
+  </body>
+</html>
