@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>GoodIntent Non-Profit Directory</title>
-    <link rel="css" type="text/css" href="goodintent.github.io/css">
-  </head>
-  <body>
-    <div class="header">
-      <h1>GoodIntent Non-Profit Directory</h1>
-      <form>
-        <input type="text" placeholder="Search...">
-        <button type="submit">Go</button>
-      </form>
-    </div>
-    <div class="main">
-      <h2>Featured Non-Profits</h2>
-      <ul>
-        <li><a href="#">Non-Profit 1</a></li>
-        <li><a href="#">Non-Profit 2</a></li>
-        <li><a href="#">Non-Profit 3</a></li>
-      </ul>
-      <h2>All Non-Profits</h2>
-      <ul>
-        <li><a href="#">Non-Profit 4</a></li>
-        <li><a href="#">Non-Profit 5</a></li>
-        <li><a href="#">Non-Profit 6</a></li>
-      </ul>
-    </div>
-    <div class="footer">
-      <p>Copyright © 2023 GoodIntent Non-Profit Directory</p>
-    </div>
-  </body>
+<head>
+	<title>Nonprofit Directory</title>
+</head>
+<body>
+	<h1 style="text-align: center;">Nonprofit Directory</h1>
+	<form>
+		<label for="search">Search:</label>
+		<input type="text" id="search" name="search">
+		<button type="submit">Submit</button>
+	</form>
+	<table style="width: 100%; border-collapse: collapse;">
+		<thead>
+			<tr>
+				<th style="border: 1px solid black; padding: 10px;">Nonprofit Name</th>
+				<th style="border: 1px solid black; padding: 10px;">Location</th>
+				<th style="border: 1px solid black; padding: 10px;">Mission</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td style="border: 1px solid black; padding: 10px;">Nonprofit 1</td>
+				<td style="border: 1px solid black; padding: 10px;">Location 1</td>
+				<td style="border: 1px solid black; padding: 10px;">Mission 1</td>
+			</tr>
+			<tr>
+				<td style="border: 1px solid black; padding: 10px;">Nonprofit 2</td>
+				<td style="border: 1px solid black; padding: 10px;">Location 2</td>
+				<td style="border: 1px solid black; padding: 10px;">Mission 2</td>
+			</tr>
+			<tr>
+				<td style="border: 1px solid black; padding: 10px;">Nonprofit 3</td>
+				<td style="border: 1px solid black; padding: 10px;">Location 3</td>
+				<td style="border: 1px solid black; padding: 10px;">Mission 3</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
 </html>
